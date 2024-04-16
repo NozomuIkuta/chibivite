@@ -1,0 +1,34 @@
+{
+  "name": "chibivite",
+  "private": true,
+  "version": "0.0.0",
+  "description": "An online guidebook to implement minimal Vite from scratch",
+  "author": "Nozomu Ikuta",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "packageManager": "pnpm@9.0.1",
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --config .config/prettier.mjs --write --cache .",
+    "format:check": "prettier --config .config/prettier.mjs --check --cache .",
+    "lint": "eslint --config .config/eslint.mjs --fix .",
+    "lint:check": "eslint --config .config/eslint.mjs ."
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.2",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@eslint/js": "^9.0.0",
+    "commitlint": "^19.2.2",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.0"
+  }
+}
