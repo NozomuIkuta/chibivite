@@ -7,6 +7,11 @@ export default [
   ...tseslint.configs.recommended,
   eslintConfigPrettier,
   {
-    ignores: ['dist', 'node_modules'],
+    ignores: [
+      'docs/.vitepress/cache',
+      'docs/.vitepress/dist',
+      'dist',
+      'node_modules',
+    ],
   },
 ]

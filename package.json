@@ -13,6 +13,9 @@
   "packageManager": "pnpm@9.0.1",
   "scripts": {
     "prepare": "husky",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "format": "prettier --config .config/prettier.mjs --write --cache .",
     "format:check": "prettier --config .config/prettier.mjs --check --cache .",
     "lint": "eslint --config .config/eslint.mjs --fix .",
@@ -29,6 +32,7 @@
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.7.0"
+    "typescript-eslint": "^7.7.0",
+    "vitepress": "^1.1.0"
   }
 }
