@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   srcDir: 'content',
+  base: '/chibivite/',
   title: 'chibivite',
   description: 'An online guidebook to implement minimal Vite from scratch',
   themeConfig: {
