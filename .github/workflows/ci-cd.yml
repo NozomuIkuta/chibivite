@@ -3,6 +3,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - .config
+      - .github/workflows/ci-cd.yml
+      - docs
+      - package.json
+      - pnpm-lock.yaml
+      - tsconfig.json
   workflow_dispatch:
 permissions:
   contents: read
