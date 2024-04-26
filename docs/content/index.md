@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: 'chibivite'
-  text: 'An online guidebook to implement minimal Vite from scratch'
+  name: chibivite
+  text: An online guidebook to implement minimal Vite from scratch
   tagline: Learn how Vite is made possible.
   actions:
     - theme: brand
