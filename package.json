@@ -1,5 +1,5 @@
 {
-  "name": "chibivite",
+  "name": "chibivite-monorepo",
   "private": true,
   "version": "0.0.0",
   "description": "An online guidebook to implement minimal Vite from scratch",
@@ -10,7 +10,7 @@
   "engines": {
     "node": ">=20.12.0"
   },
-  "packageManager": "pnpm@9.0.1",
+  "packageManager": "pnpm@9.0.6",
   "scripts": {
     "prepare": "husky",
     "docs:dev": "vitepress dev docs",

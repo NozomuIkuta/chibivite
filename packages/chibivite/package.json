@@ -1,0 +1,14 @@
+{
+  "name": "chibivite",
+  "private": true,
+  "version": "0.0.0",
+  "description": "minimal implementation of Vite",
+  "author": "Nozomu Ikuta",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "packageManager": "pnpm@9.0.6"
+}
