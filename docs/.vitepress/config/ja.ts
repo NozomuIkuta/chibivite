@@ -27,6 +27,10 @@ export const jaConfig = defineConfig({
     ['meta', { name: 'twitter:image:alt', content: 'chibivite' }],
   ],
   themeConfig: {
+    /**
+     * Some theme config can't be localized due to VitePress bug.
+     * See https://github.com/vuejs/vitepress/issues/3056
+     */
     nav: [{ text: 'ガイド', link: '/ja/guide/' }],
     langMenuLabel: '言語を切り替える',
     darkModeSwitchLabel: '外観',
@@ -34,13 +38,9 @@ export const jaConfig = defineConfig({
     darkModeSwitchTitle: 'ダークモードに切り替える',
     sidebarMenuLabel: 'メニュー',
     sidebar: [],
-    /**
-     * `notFound` amd `footer` can't be localized due to VitePress bug.
-     * See https://github.com/vuejs/vitepress/issues/3056
-     */
     notFound: {
       title: 'ページが見つかりません',
-      quote: 'しかし、探し続ければいつか行き着くかもしれません。',
+      quote: 'しかし、探し続ければいつかたどりつくかもしれません。',
       linkLabel: 'ホームに戻る',
       linkText: 'ホームに戻る',
     },
