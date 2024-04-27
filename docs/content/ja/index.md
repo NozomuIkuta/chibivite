@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: chibivite
-  text: フルスクラッチから始めるミニマルなVite実装のためのオンラインガイドブック
+  text: ミニマルなVite実装のためのオンラインガイドブック
   tagline: Viteはなぜ動くのか
   actions:
     - theme: brand
