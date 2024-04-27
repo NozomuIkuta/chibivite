@@ -1,5 +1,4 @@
 export default {
-  '*.{js,mjs,ts}': ['pnpm run lint', 'pnpm run format'],
-  '*.{json,md}': ['pnpm run format'],
-  '*.{yaml,yml}': ['pnpm run format'],
+  '*.{js,mjs,ts}': ['pnpm run lint:lint-staged', 'pnpm run format:lint-staged'],
+  '*.{css,json,md,yaml,yml}': ['pnpm run format:lint-staged'],
 }

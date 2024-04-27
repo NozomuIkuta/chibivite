@@ -17,8 +17,10 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "format": "prettier --config .config/prettier.mjs --write --cache .",
+    "format:lint-staged": "prettier --config .config/prettier.mjs --write --cache",
     "format:check": "prettier --config .config/prettier.mjs --check --cache .",
     "lint": "eslint --config .config/eslint.mjs --fix .",
+    "lint:lint-staged": "eslint --config .config/eslint.mjs --fix",
     "lint:check": "eslint --config .config/eslint.mjs ."
   },
   "devDependencies": {
