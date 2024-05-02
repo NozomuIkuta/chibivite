@@ -14,7 +14,7 @@ export default defineConfig({
   },
   plugins: [
     typescript({
-      tsconfig: path.resolve(__dirname, 'tsconfig.json'),
+      tsconfig: path.resolve(__dirname, 'tsconfig.base.json'),
       sourceMap: true,
     }),
   ],
