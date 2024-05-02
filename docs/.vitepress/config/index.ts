@@ -3,9 +3,12 @@ import { enConfig } from './en'
 import { jaConfig, jaSearchConfig } from './ja'
 import { defineConfig } from 'vitepress'
 
+const PROD = process.env.NODE_ENV === 'production'
+
 export default withMermaid({
   ...defineConfig({
     srcDir: 'content',
+    srcExclude: PROD ? ['**/*.draft.md'] : [],
     base: '/chibivite/',
     title: 'chibivite',
     lastUpdated: true,
