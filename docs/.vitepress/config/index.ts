@@ -1,8 +1,8 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { enConfig } from './en'
 import { jaConfig, jaSearchConfig } from './ja'
 
-export default defineConfig({
+export default withMermaid({
   srcDir: 'content',
   base: '/chibivite/',
   title: 'chibivite',
@@ -26,4 +26,6 @@ export default defineConfig({
     root: { label: 'English', ...enConfig },
     ja: { label: '日本語', ...jaConfig },
   },
+  mermaid: {},
+  mermaidPlugin: {},
 })
