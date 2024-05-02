@@ -8,8 +8,12 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url))
 export default defineConfig({
   input: path.resolve(__dirname, 'src/index.ts'),
   output: {
-    file: path.resolve(__dirname, 'dist/index.mjs'),
+    dir: './dist',
+    entryFileNames: `[name].js`,
+    exports: 'named',
     format: 'esm',
+    externalLiveBindings: false,
+    freeze: false,
     sourcemap: true,
   },
   plugins: [
