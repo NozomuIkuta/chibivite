@@ -9,8 +9,6 @@
     "moduleResolution": "Bundler",
     "moduleDetection": "force",
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
