@@ -1,9 +1,7 @@
 {
-  "inlclude": ["src/**/*.ts"],
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "dist",
-    "lib": ["ESNext"],
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
