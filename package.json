@@ -16,6 +16,8 @@
     "docs:dev": "pnpm run --filter docs dev",
     "docs:build": "pnpm run --filter docs build",
     "docs:preview": "pnpm run --filter docs preview",
+    "chibivite:build": "pnpm run --filter chibivite build",
+    "playground:dev": "pnpm run --filter playground dev",
     "format": "prettier --config .config/prettier.mjs --write --cache .",
     "format:lint-staged": "prettier --config .config/prettier.mjs --write --cache",
     "format:check": "prettier --config .config/prettier.mjs --check --cache .",
