@@ -106,6 +106,12 @@ importers:
         specifier: ^2.6.2
         version: 2.6.2
 
+  playground:
+    devDependencies:
+      chibivite:
+        specifier: workspace:*
+        version: link:../packages/chibivite
+
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':

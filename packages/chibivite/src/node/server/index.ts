@@ -1,8 +1,10 @@
 import connect from 'connect'
+import { indexHtmlMiddleware } from './middlewares/indexHtml'
 
 const PORT = 5137
 
 export async function createServer() {
+  const root = process.cwd()
   const middlewares = connect()
   const { createServer } = await import('node:http')
   const httpServer = createServer(middlewares)
@@ -33,6 +35,8 @@ export async function createServer() {
       return server
     },
   }
+
+  middlewares.use(indexHtmlMiddleware(root))
 
   return server
 }
