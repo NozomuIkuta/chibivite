@@ -37,7 +37,12 @@ export const jaConfig = defineConfig({
     lightModeSwitchTitle: 'ライトモードに切り替える',
     darkModeSwitchTitle: 'ダークモードに切り替える',
     sidebarMenuLabel: 'メニュー',
-    sidebar: [],
+    sidebar: [
+      {
+        text: 'ガイド',
+        items: [{ text: 'はじめに', link: '/ja/guide/' }],
+      },
+    ],
     outline: {
       label: '目次',
     },

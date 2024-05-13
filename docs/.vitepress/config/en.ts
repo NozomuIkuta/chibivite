@@ -27,7 +27,12 @@ export const enConfig = defineConfig({
   ],
   themeConfig: {
     nav: [{ text: 'Guide', link: '/guide/' }],
-    sidebar: [],
+    sidebar: [
+      {
+        text: 'Guide',
+        items: [{ text: 'Introduction', link: '/guide/' }],
+      },
+    ],
     editLink: {
       pattern:
         'https://github.com/vuejs/vitepress/edit/main/docs/content/:path',
