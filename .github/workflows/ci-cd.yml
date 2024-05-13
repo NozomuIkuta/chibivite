@@ -6,7 +6,7 @@ on:
     paths:
       - .config
       - .github/workflows/ci-cd.yml
-      - docs
+      - docs/**
       - package.json
       - pnpm-lock.yaml
       - tsconfig.json
