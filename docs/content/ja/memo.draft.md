@@ -28,3 +28,8 @@
 - HMR Context
 - HRM Boundary
 - あとで読む：https://bjornlu.com/blog/hot-module-replacement-is-easy
+
+**その他**
+
+- Dependency Pre-Bundling (https://vitejs.dev/guide/dep-pre-bundling.html)
+  - Dependencies vs. DevDependencies
