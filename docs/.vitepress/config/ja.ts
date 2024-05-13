@@ -38,6 +38,9 @@ export const jaConfig = defineConfig({
     darkModeSwitchTitle: 'ダークモードに切り替える',
     sidebarMenuLabel: 'メニュー',
     sidebar: [],
+    outline: {
+      label: '目次',
+    },
     notFound: {
       title: 'ページが見つかりません',
       quote: 'しかし、探し続ければいつかたどりつくかもしれません。',
@@ -52,8 +55,9 @@ export const jaConfig = defineConfig({
     lastUpdated: {
       text: '更新日時',
       formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium',
+        forceLocale: true,
+        dateStyle: 'long',
+        timeStyle: 'short',
       },
     },
     returnToTopLabel: 'トップに戻る',

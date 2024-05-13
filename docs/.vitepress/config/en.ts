@@ -32,6 +32,12 @@ export const enConfig = defineConfig({
       pattern:
         'https://github.com/vuejs/vitepress/edit/main/docs/content/:path',
     },
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: 'long',
+        timeStyle: 'short',
+      },
+    },
     footer: {
       message: 'Released under the MIT License.',
       copyright: '© 2024 Nozomu Ikuta',
