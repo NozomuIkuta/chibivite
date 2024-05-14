@@ -46,12 +46,6 @@ export const jaConfig = defineConfig({
     outline: {
       label: '目次',
     },
-    notFound: {
-      title: 'ページが見つかりません',
-      quote: 'しかし、探し続ければいつかたどりつくかもしれません。',
-      linkLabel: 'ホームに戻る',
-      linkText: 'ホームに戻る',
-    },
     editLink: {
       pattern:
         'https://github.com/vuejs/vitepress/edit/main/docs/content/:path',
@@ -66,9 +60,19 @@ export const jaConfig = defineConfig({
       },
     },
     returnToTopLabel: 'トップに戻る',
+    docFooter: {
+      prev: '前のページ',
+      next: '次のページ',
+    },
     footer: {
       message: 'MITライセンスで配布されています。',
       copyright: '© 2024 Nozomu Ikuta',
+    },
+    notFound: {
+      title: 'ページが見つかりません',
+      quote: 'しかし、探し続ければいつかたどりつくかもしれません。',
+      linkLabel: 'ホームに戻る',
+      linkText: 'ホームに戻る',
     },
   },
 })
