@@ -31,7 +31,10 @@ export const jaConfig = defineConfig({
      * Some theme config can't be localized due to VitePress bug.
      * See https://github.com/vuejs/vitepress/issues/3056
      */
-    nav: [{ text: 'ガイド', link: '/ja/guide/' }],
+    nav: [
+      { text: 'ガイド', link: '/ja/introduction' },
+      { text: 'ハンズオン', link: '/ja/project-setup' },
+    ],
     langMenuLabel: '言語を切り替える',
     darkModeSwitchLabel: '外観',
     lightModeSwitchTitle: 'ライトモードに切り替える',
@@ -40,7 +43,16 @@ export const jaConfig = defineConfig({
     sidebar: [
       {
         text: 'ガイド',
-        items: [{ text: 'はじめに', link: '/ja/guide/' }],
+        items: [
+          { text: 'はじめに', link: '/ja/introduction' },
+          { text: '必要なツールのインストール', link: '/ja/tools' },
+        ],
+      },
+      {
+        text: 'ハンズオン',
+        items: [
+          { text: 'プロジェクトのセットアップ', link: '/ja/project-setup' },
+        ],
       },
     ],
     outline: {

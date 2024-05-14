@@ -1,14 +1,15 @@
 <script setup>
-import AuthorProfile from '../../../.vitepress/components/AuthorProfile.vue'
+import AuthorProfile from '../../.vitepress/components/AuthorProfile.vue'
 </script>
 
 # はじめに
 
 本書に興味をもっていただき、ありがとうございます！
 
-本書は、chibivite（`/tʃibʲivit/`）という名前のミニマルなViteをフルスクラッチで実装しながら、
-現代の代表的なフロントエンドツールのひとつであるViteがどのように動作しているかを学ぶことができる、
-実践的なオンラインブックです。
+本書は、現代の代表的なフロントエンドツールのひとつであるViteがどのように動作しているかを学ぶことができる実践的なオンラインブックです。
+
+読者は、chibivite（`/tʃibʲivit/`）という名前のミニマルなViteをフルスクラッチで実装しながら、
+Viteのアーキテクチャや内部実装、関連知識を学ぶことができます。
 
 ## 本書の目的
 
@@ -16,7 +17,7 @@ import AuthorProfile from '../../../.vitepress/components/AuthorProfile.vue'
 
 - Viteのアーキテクチャを理解し、説明できるようになること
 - Viteの基本的な機能を実装できるようになること
-- Viteにコントリビューションできるようになること
+- Viteとそのコミュニティにコントリビューションできるようになること
 
 ## 想定する読者
 

@@ -26,11 +26,21 @@ export const enConfig = defineConfig({
     ['meta', { name: 'twitter:image:alt', content: 'chibivite' }],
   ],
   themeConfig: {
-    nav: [{ text: 'Guide', link: '/guide/' }],
+    nav: [
+      { text: 'Guide', link: '/introduction' },
+      { text: 'Hands-On', link: '/project-setup' },
+    ],
     sidebar: [
       {
         text: 'Guide',
-        items: [{ text: 'Introduction', link: '/guide/' }],
+        items: [
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Tools', link: '/tools' },
+        ],
+      },
+      {
+        text: 'Hands-On',
+        items: [{ text: 'Project Setup', link: '/project-setup' }],
       },
     ],
     editLink: {

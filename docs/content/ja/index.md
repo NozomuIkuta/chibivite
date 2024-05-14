@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: はじめる
-      link: /ja/guide/
+      link: /ja/introduction
     - theme: alt
       text: GitHubで見る
       link: https://github.com/NozomuIkuta/chibivite
