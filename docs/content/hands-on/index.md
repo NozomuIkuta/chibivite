@@ -1,8 +1,4 @@
-<script setup>
-import AuthorProfile from '../.vitepress/components/AuthorProfile.vue'
-</script>
-
-# Project Setup
+# Hands-On
 
 ::: warning 🚧 English version is stil under development
 Please check [Japanese version](/ja/) at the moment.

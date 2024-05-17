@@ -32,8 +32,8 @@ export const jaConfig = defineConfig({
      * See https://github.com/vuejs/vitepress/issues/3056
      */
     nav: [
-      { text: 'ガイド', link: '/ja/introduction' },
-      { text: 'ハンズオン', link: '/ja/project-setup' },
+      { text: 'コンセプト', link: '/ja/concepts/' },
+      { text: 'ハンズオン', link: '/ja/hands-on/' },
     ],
     langMenuLabel: '言語を切り替える',
     darkModeSwitchLabel: '外観',
@@ -41,17 +41,33 @@ export const jaConfig = defineConfig({
     darkModeSwitchTitle: 'ダークモードに切り替える',
     sidebarMenuLabel: 'メニュー',
     sidebar: [
+      { text: 'はじめに', link: '/ja/introduction' },
       {
-        text: 'ガイド',
+        text: 'コンセプト',
+        collapsed: false,
         items: [
-          { text: 'はじめに', link: '/ja/introduction' },
-          { text: '必要なツールのインストール', link: '/ja/tools' },
+          { text: '概要', link: '/ja/concepts/' },
+          {
+            text: 'コマンドラインインターフェース',
+            link: '/ja/concepts/command-line-interface',
+          },
+          // { text: '開発サーバー', link: '/ja/concepts/dev-server' },
+          // { text: 'プレビューサーバー', link: '/ja/concepts/preview-server' },
+          // { text: 'プラグインコンテナー', link: '/ja/concepts/plugin-container' },
+          // { text: 'モジュールグラフ', link: '/ja/concepts/module-graph' },
         ],
       },
       {
         text: 'ハンズオン',
+        collapsed: false,
         items: [
-          { text: 'プロジェクトのセットアップ', link: '/ja/project-setup' },
+          { text: '概要', link: '/ja/hands-on/' },
+          { text: 'ツールのセットアップ', link: '/ja/hands-on/tool-setup' },
+          {
+            text: 'プロジェクトのセットアップ',
+            link: '/ja/hands-on/project-setup',
+          },
+          // { text: 'Hello, chibivite!', link: '/ja/hands-on/hello-chibivite' },
         ],
       },
     ],

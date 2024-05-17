@@ -27,20 +27,20 @@ export const enConfig = defineConfig({
   ],
   themeConfig: {
     nav: [
-      { text: 'Guide', link: '/introduction' },
-      { text: 'Hands-On', link: '/project-setup' },
+      { text: 'Concepts', link: '/concepts/' },
+      { text: 'Hands-On', link: '/hands-on/' },
     ],
     sidebar: [
+      { text: 'Introduction', link: '/introduction' },
       {
-        text: 'Guide',
-        items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Tools', link: '/tools' },
-        ],
+        text: 'Concepts',
+        link: '/concepts/',
+        items: [],
       },
       {
         text: 'Hands-On',
-        items: [{ text: 'Project Setup', link: '/project-setup' }],
+        link: '/hands-on/',
+        items: [],
       },
     ],
     editLink: {
