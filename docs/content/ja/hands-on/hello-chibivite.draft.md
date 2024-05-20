@@ -2,11 +2,11 @@
 
 ::: tip このページのゴール
 ✅ chibiviteのパッケージ[コマンドラインインターフェース](/ja/concepts/command-line-interface)を実装しましょう
+
+✅ chibiviteを実際に動作させることができるプレイグラウンドを立ち上げましょう
 :::
 
-さあ、chibiviteの実装をはじめましょう！
-
-このハンズオンでは、最初にコマンドラインインターフェース（以下、chibivite CLIまたは単にCLIと表記します）を実装します。
+chibiviteのコマンドラインインターフェース（以下、chibivite CLIと表記します）を実装して、実際に動かしてみましょう！
 
 ---
 
@@ -94,6 +94,7 @@ pnpm install
 
 インストールしたchibiviteパッケージのコマンドを実行するためのnpm scriptを追加しましょう。
 
+<!-- prettier-ignore -->
 ```json
 {
   "name": "playground",
@@ -101,11 +102,10 @@ pnpm install
   "version": "0.0.0",
   "type": "module",
   "sideEffects": false,
-  "scripts": {}, // [!code --]
-  "scripts": {
-    // [!code ++]
+  "scripts": {},       // [!code --]
+  "scripts": {         // [!code ++]
     "dev": "chibivite" // [!code ++]
-  }, // [!code ++]
+  },                   // [!code ++]
   "devDependencies": {
     "chibivite": "workspace:*"
   }
@@ -120,4 +120,4 @@ pnpm run dev
 
 ---
 
-おめでとうございます、これでchibiviteパッケージをインストールして `chibivite` コマンドを利用できるようになりました！🎉
+おめでとうございます！これでchibiviteパッケージをインストールして `chibivite` コマンドを利用できるようになりました！🎉

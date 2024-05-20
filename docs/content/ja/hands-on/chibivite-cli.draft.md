@@ -1,10 +1,14 @@
-# ビルドのセットアップ
+# chibivite CLI
 
 ::: tip このページのゴール
-✅ chibiviteの[コマンドラインインターフェース](/ja/concepts/command-line-interface)にコマンドを追加しましょう
+✅ chibivite CLIにコマンドを追加しましょう
 
-✅ chibiviteをRollupでビルドするための設定を整えましょう
+✅ chibivite CLIをRollupでビルドできるようにしましょう
 :::
+
+これまでのchibivite CLIは「Hello, chibivite!」と表示するだけの簡単なものです。
+
+chibivite CLIにコマンドを追加して、より実践的な処理を実行できるようにしましょう！
 
 ---
 

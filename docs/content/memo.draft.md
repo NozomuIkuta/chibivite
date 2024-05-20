@@ -1,3 +1,20 @@
+# ハンズオン目次
+
+- ツールのセットアップ
+- プロジェクトのセットアップ
+- Hello, chibivite!
+  - Nodeのビルド
+- chibivite CLI
+  - CLIのビルド
+- Dev Serverのセットアップ
+  - `createServer()`
+  - `listen()`
+- `index.html` の処理
+- Plugin Container
+- TypeScript Transform
+- HMR
+  - Clientのビルド
+
 # Viteの構成
 
 **Client**
