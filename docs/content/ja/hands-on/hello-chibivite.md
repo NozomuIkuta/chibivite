@@ -1,7 +1,7 @@
 # Hello, chibivite!
 
 ::: tip このページのゴール
-✅ chibiviteのパッケージ[コマンドラインインターフェース](/ja/concepts/command-line-interface)を実装しましょう
+✅ chibiviteの[コマンドラインインターフェース](/ja/concepts/command-line-interface)を実装しましょう
 
 ✅ chibiviteを実際に動作させることができるプレイグラウンドを立ち上げましょう
 :::
@@ -24,21 +24,14 @@ start()
 
 chibiviteをパッケージマネージャーでインストールした開発者がこのファイルを実行できるようにするため、`package.json` に以下の内容を設定しましょう。
 
+<!-- prettier-ignore -->
 ```json
 {
-  "name": "chibivite",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "sideEffects": false,
-  "engines": {
-    "node": ">=20.12.0"
-  },
+  // ...
   "packageManager": "pnpm@9.0.6",
   "bin": "bin/chibivite.js", // [!code ++]
   "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  // ...
 }
 ```
 
@@ -58,6 +51,7 @@ packages:
 
 つぎに `playground/package.json` を作成して、以下のコードをコピーしましょう。
 
+<!-- prettier-ignore -->
 ```json
 {
   "name": "playground",
@@ -97,18 +91,12 @@ pnpm install
 <!-- prettier-ignore -->
 ```json
 {
-  "name": "playground",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "sideEffects": false,
+  // ...
   "scripts": {},       // [!code --]
   "scripts": {         // [!code ++]
     "dev": "chibivite" // [!code ++]
   },                   // [!code ++]
-  "devDependencies": {
-    "chibivite": "workspace:*"
-  }
+  // ...
 }
 ```
 
@@ -120,4 +108,4 @@ pnpm run dev
 
 ---
 
-おめでとうございます！これでchibiviteパッケージをインストールして `chibivite` コマンドを利用できるようになりました！🎉
+おめでとうございます！これでchibivite CLIをプレイグラウンドで利用できるようになりました！🎉
