@@ -9,6 +9,9 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
+  "dependencies": {
+    "vue": "^3.4.27"
+  },
   "devDependencies": {
     "@braintree/sanitize-url": "^7.0.1",
     "cytoscape": "^3.29.2",
