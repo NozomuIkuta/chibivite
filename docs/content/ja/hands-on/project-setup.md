@@ -23,7 +23,7 @@
      "engines": {
        "node": ">=20.12.0"
      },
-     "packageManager": "pnpm@9.0.6",
+     "packageManager": "pnpm@9.1.2",
      "scripts": {},
      "devDependencies": {}
    }
@@ -53,7 +53,7 @@
      "engines": {
        "node": ">=20.12.0"
      },
-     "packageManager": "pnpm@9.0.6",
+     "packageManager": "pnpm@9.1.2",
      "scripts": {},
      "dependencies": {},
      "devDependencies": {}

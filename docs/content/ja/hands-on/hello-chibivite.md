@@ -28,7 +28,7 @@ chibiviteをパッケージマネージャーでインストールした開発�
 ```json
 {
   // ...
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.1.2",
   "bin": "bin/chibivite.js", // [!code ++]
   "scripts": {},
   // ...
