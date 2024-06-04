@@ -68,7 +68,10 @@ export const jaConfig = defineConfig({
             link: '/ja/hands-on/project-setup',
           },
           { text: 'Hello, chibivite!', link: '/ja/hands-on/hello-chibivite' },
-          // { text: 'chibivite CLIのビルド', link: '/ja/hands-on/cli-build-setup' },
+          {
+            text: 'chibivite CLIのビルド',
+            link: '/ja/hands-on/cli-build-setup',
+          },
         ],
       },
     ],
