@@ -1,24 +1,19 @@
 <script setup lang="ts">
 import { VPTeamMembers } from 'vitepress/theme'
 
-const props = withDefaults(
-  defineProps<{
-    locale?: 'en' | 'ja'
-  }>(),
-  {
-    locale: 'en',
-  },
-)
+const { locale = 'en' } = defineProps<{
+  locale?: 'en' | 'ja'
+}>()
 
 const author = {
   avatar: 'https://avatars.githubusercontent.com/u/16436160',
   name: 'Nozomu Ikuta',
   desc:
-    props.locale === 'en'
+    locale === 'en'
       ? 'Member of UnJS / Vue.js JP Core Staff / Vite Contributor'
       : 'UnJSメンバー/ Vue.js JP コアスタッフ / Vite コントリビューター',
   sponsor: 'https://github.com/sponsors/NozomuIkuta',
-  actionText: props.locale === 'en' ? 'Sponsor' : 'スポンサー',
+  actionText: locale === 'en' ? 'Sponsor' : 'スポンサー',
   links: [
     { icon: 'github', link: 'https://github.com/NozomuIkuta' },
     { icon: 'twitter', link: 'https://twitter.com/NozomuIkuta' },
