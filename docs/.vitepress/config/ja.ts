@@ -51,7 +51,7 @@ export const jaConfig = defineConfig({
             text: 'コマンドラインインターフェース',
             link: '/ja/concepts/command-line-interface',
           },
-          // { text: '開発サーバー', link: '/ja/concepts/dev-server' },
+          { text: '開発サーバー', link: '/ja/concepts/dev-server' },
           // { text: 'プレビューサーバー', link: '/ja/concepts/preview-server' },
           // { text: 'プラグインコンテナー', link: '/ja/concepts/plugin-container' },
           // { text: 'モジュールグラフ', link: '/ja/concepts/module-graph' },
