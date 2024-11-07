@@ -48,5 +48,5 @@
 
 **その他**
 
-- Dependency Pre-Bundling (https://vitejs.dev/guide/dep-pre-bundling.html)
+- Dependency Pre-Bundling (https://vite.dev/guide/dep-pre-bundling.html)
   - Dependencies vs. DevDependencies

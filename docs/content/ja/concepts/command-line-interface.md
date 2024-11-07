@@ -6,7 +6,7 @@
 - Viteのコマンドラインインターフェースが担う責任を理解しましょう
   :::
 
-開発者は２種類の方法でViteを使用できます。ひとつは[JavaScript API](https://ja.vitejs.dev/guide/api-javascript.html)で、もうひとつは[コマンドラインインターフェース](https://ja.vitejs.dev/guide/cli.html)（以下、Vite CLIまたは単にCLIと表記します）です。
+開発者は２種類の方法でViteを使用できます。ひとつは[JavaScript API](https://ja.vite.dev/guide/api-javascript.html)で、もうひとつは[コマンドラインインターフェース](https://ja.vite.dev/guide/cli.html)（以下、Vite CLIまたは単にCLIと表記します）です。
 
 JavaScript APIではプリミティブなレベルでViteを使うことができ、Viteを使ったフレームワークの開発や複雑なビルドプロセスの実装をおこなうことができます。
 
