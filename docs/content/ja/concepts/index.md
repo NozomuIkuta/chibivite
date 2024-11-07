@@ -13,5 +13,5 @@ Viteの開発者体験は非常に洗練されているため、開発者がVite
 - [コマンドラインインターフェイス](/ja/concepts/command-line-interface)
 - [開発サーバー](/ja/concepts/dev-server)
 - [プレビューサーバー](/ja/concepts/preview-server)
-- [プラグインコンテナー](/ja/concepts/plugin-container)
+- [プラグインシステム](/ja/concepts/plugin-system)
 - [モジュールグラフ](/ja/concepts/module-graph)
