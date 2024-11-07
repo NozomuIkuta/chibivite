@@ -1,8 +1,10 @@
 # コマンドラインインターフェイス
 
-::: tip このページのゴール
-✅ Viteのコマンドラインインターフェースが担う責任を理解しましょう
-:::
+::: tip 🎯 このページのゴール
+
+- Viteのコマンドラインインターフェースが担う責任を理解しましょう
+- Viteのコマンドラインインターフェースが担う責任を理解しましょう
+  :::
 
 開発者は２種類の方法でViteを使用できます。ひとつは[JavaScript API](https://ja.vitejs.dev/guide/api-javascript.html)で、もうひとつは[コマンドラインインターフェース](https://ja.vitejs.dev/guide/cli.html)（以下、Vite CLIまたは単にCLIと表記します）です。
 
@@ -22,7 +24,7 @@ chibiviteでもViteにならい `chibivite.js` を作成しますが、パフォ
 
 ---
 
-::: info まとめ
+::: info ✨ まとめ
 
 - Vite CLIは、JavaScript APIを呼び出します
 - Vite CLIのエントリーポイントは、 `vite.js` です

@@ -1,10 +1,10 @@
 # Hello, chibivite!
 
-::: tip このページのゴール
-✅ chibiviteの[コマンドラインインターフェース](/ja/concepts/command-line-interface)を実装しましょう
+::: tip 🎯 このページのゴール
 
-✅ chibiviteを実際に動作させることができるプレイグラウンドを立ち上げましょう
-:::
+- chibiviteの[コマンドラインインターフェース](/ja/concepts/command-line-interface)を実装しましょう
+- chibiviteを実際に動作させることができるプレイグラウンドを立ち上げましょう
+  :::
 
 chibiviteのコマンドラインインターフェース（以下、chibivite CLIと表記します）を実装して、実際に動かしてみましょう！
 

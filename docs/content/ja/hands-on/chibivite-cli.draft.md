@@ -1,10 +1,10 @@
 # chibivite CLI
 
-::: tip このページのゴール
-✅ chibivite CLIにコマンドを追加しましょう
+::: tip 🎯 このページのゴール
 
-✅ chibivite CLIをRollupでビルドできるようにしましょう
-:::
+- chibivite CLIにコマンドを追加しましょう
+- chibivite CLIをRollupでビルドできるようにしましょう
+  :::
 
 これまでのchibivite CLIは「Hello, chibivite!」と表示するだけの簡単なものです。
 

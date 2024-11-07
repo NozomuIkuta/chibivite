@@ -1,8 +1,9 @@
 # chibivite CLIのビルド
 
-::: tip このページのゴール
-✅ chibivite CLIをTypeScriptで実装してビルドできるようにしましょう
-:::
+::: tip 🎯 このページのゴール
+
+- chibivite CLIをTypeScriptで実装してビルドできるようにしましょう
+  :::
 
 chibivite CLIの詳細をTypeScriptで実装できるようにして、より堅牢なコードベースで開発できるようにしましょう！
 
