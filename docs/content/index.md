@@ -10,5 +10,5 @@ hero:
       link: /introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/NozomuIkuta/chibivite
+      link: https://github.com/nozomuikuta/chibivite
 ---

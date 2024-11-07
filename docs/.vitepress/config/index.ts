@@ -15,8 +15,8 @@ export default withMermaid({
     themeConfig: {
       externalLinkIcon: true,
       socialLinks: [
-        { icon: 'twitter', link: 'https://twitter.com/NozomuIkuta' },
-        { icon: 'github', link: 'https://github.com/NozomuIkuta/chibivite' },
+        { icon: 'twitter', link: 'https://twitter.com/nozomuikuta' },
+        { icon: 'github', link: 'https://github.com/nozomuikuta/chibivite' },
       ],
       search: {
         provider: 'local',

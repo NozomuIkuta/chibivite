@@ -12,11 +12,11 @@ const author = {
     locale === 'en'
       ? 'Member of UnJS / Vue.js JP Core Staff / Vite Contributor'
       : 'UnJSメンバー/ Vue.js JP コアスタッフ / Vite コントリビューター',
-  sponsor: 'https://github.com/sponsors/NozomuIkuta',
+  sponsor: 'https://github.com/sponsors/nozomuikuta',
   actionText: locale === 'en' ? 'Sponsor' : 'スポンサー',
   links: [
-    { icon: 'github', link: 'https://github.com/NozomuIkuta' },
-    { icon: 'twitter', link: 'https://twitter.com/NozomuIkuta' },
+    { icon: 'github', link: 'https://github.com/nozomuikuta' },
+    { icon: 'twitter', link: 'https://twitter.com/nozomuikuta' },
   ],
 }
 </script>
